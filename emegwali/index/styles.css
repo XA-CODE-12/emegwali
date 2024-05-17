@@ -1,0 +1,67 @@
+/* Ajoutez des styles pour les liens de navigation */
+/* Styles pour la navigation */
+nav ul {
+    display: table;
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: table-cell;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+
+/* Ajoutez des styles pour l'en-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Ajoutez des styles pour les sections */
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+/* Ajoutez des styles pour le pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media ul {
+    list-style-type: none;
+}
+
+.social-media ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
